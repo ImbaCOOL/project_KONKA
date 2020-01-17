@@ -1,0 +1,269 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+.site-header {
+  background: #fff;
+}
+.container.main-container {
+  padding-top: 100px;
+}
+.container.main-container .glist-container .breadcrumb {
+  margin-bottom: 10px;
+  padding: 0;
+  background: none !important;
+}
+.container.main-container .glist-container .breadcrumb li {
+  display: inline-block;
+}
+.container.main-container .glist-container .breadcrumb li a {
+  font-size: 14px;
+  color: #333;
+}
+.container.main-container .glist-container .breadcrumb li .glyphicon {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.container.main-container .glist-container .breadcrumb > li + li:before {
+  content: ">\00a0";
+}
+.container.main-container .glist-container .panel-body {
+  padding: 0;
+}
+.container.main-container .glist-container .panel-body .gfilter-list dt {
+  width: 85px;
+  height: 40px;
+  text-align: left;
+  padding: 0 0 0 15px;
+  line-height: 40px;
+  background: #eee;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: 600;
+}
+.container.main-container .glist-container .panel-body .gfilter-list dt:last-child {
+  border-bottom: 0;
+}
+.container.main-container .glist-container .panel-body .gfilter-list dd {
+  margin-left: 0px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #f0f0f0;
+  overflow: hidden;
+}
+.container.main-container .glist-container .panel-body .gfilter-list dd li {
+  display: inline-block;
+  margin-left: 35px;
+}
+.container.main-container .glist-container .panel-body .gfilter-list dd li a {
+  color: #333;
+  padding: 0;
+  border: 0;
+  display: inline;
+}
+.container.main-container .glist-container .panel-body .gfilter-list dd li a:hover {
+  color: #ed1c24;
+}
+.container.main-container .glist-container .panel-body .gfilter-list dd li .active {
+  background: #ed1c24;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.container.main-container .glist-container .panel-body .gfilter-list dd li .active:hover {
+  color: #fff;
+}
+.container.main-container .glist-container .panel-body .gfilter-list dd:last-child {
+  border-bottom: 0;
+}
+.container.main-container .glist-container .goods-list .panel-default {
+  height: 40px;
+  border: 0;
+  box-shadow: none;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading {
+  padding: 0;
+  border: 0;
+  background: #eee;
+  height: 40px;
+  box-sizing: border-box;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline {
+  height: 40px;
+  position: relative;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .btn-group {
+  padding: 0;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .btn-group .iconChange {
+  position: relative;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .btn-group .iconChange span {
+  height: 30px;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .btn-group .iconChange span i {
+  position: absolute;
+  color: #000;
+  right: 8px;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .btn-group .iconChange span i:hover {
+  color: #da2a2a;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .btn-group .iconChange span .glyphicon-triangle-top {
+  top: 4px;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .btn-group .iconChange span .glyphicon-triangle-bottom {
+  position: absolute;
+  bottom: 0;
+  top: 14px;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .btn-group a {
+  display: inline-block;
+  text-align: center;
+  background: none;
+  width: 80px;
+  line-height: 40px;
+  height: 40px;
+  font-size: 14px;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .btn-group a i {
+  font-size: 12px;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .btn-group .defaultBtn {
+  border-top: 2px solid #da2a2a;
+  color: #da2a2a;
+  box-sizing: border-box;
+  background: #fff;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .arrow {
+  width: 80px;
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .arrow .goodsnum-page span {
+  margin: 0 2px;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .arrow .goodsnum-page .current {
+  color: #da2a2a;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .arrow .page-change {
+  height: 20px;
+  box-sizing: border-box;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .arrow .page-change span {
+  box-sizing: border-box;
+}
+.container.main-container .glist-container .goods-list .panel-default .panel-heading .form-inline .arrow .page-change span a {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid #d3d3d3;
+  background: #fff;
+  font-size: 12px;
+  border-radius: 2px;
+}
+.container.main-container .glist-container .goods-list .gl-default {
+  margin: 0;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 {
+  background: #fff;
+  padding: 10px;
+  height: 340px;
+  width: 270px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 .figure {
+  height: 200px;
+  width: 100%;
+  line-height: 200px;
+  font-size: 0;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 .figure a {
+  margin-bottom: 30px;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 .figure a img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 .sold-out {
+  background: rgba(0, 0, 0, 0.6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000, 0, endColorstr=#7f000000, 0);
+  border-radius: 25px;
+  behavior: url(PIE.htc);
+  height: 50px;
+  width: 50px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 .figure-title {
+  line-height: 35px;
+  margin-bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 .figureColor {
+  color: #989898;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: inherit;
+  text-overflow: ellipsis;
+  height: 47px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  line-height: 22px;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 .price {
+  color: #da2a2a;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 .wrapper {
+  display: none;
+  width: 270px;
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  padding: 10px 15px;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 .wrapper a {
+  width: 90px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  outline: none;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 .wrapper a:first-child {
+  border: 1px solid #ed1c24;
+  color: #ed1c24;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 .wrapper a:first-child:hover {
+  background: #fff;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3 .wrapper a:last-child {
+  background: #ed1c24;
+  border: 1px solid #ed1c24;
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  transition: all 0.5s;
+  transform: translate3d(0, -2px, 0);
+}
+.container.main-container .glist-container .goods-list .gl-default .col-xs-3:nth-child(4n+1) {
+  margin-left: 0;
+}
+.container.main-container .glist-container .pagination {
+  margin-top: 0;
+  float: right;
+}

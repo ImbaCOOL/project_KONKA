@@ -1,0 +1,64 @@
+.banner {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    top: -500px;
+}
+
+.banner-box {
+    padding: 0;
+    margin: 0;
+    width: 12000px;
+    height: 500px;
+    position: absolute;
+}
+
+.banner-box-item {
+    width: 1920px;
+    height: 500px;
+    float: left;
+}
+
+.banner-box-item img {
+    width: 1920px;
+    height: 500px;
+}
+
+.banner-control {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    top: 50%;
+    margin-top: -50px;
+    font-size: 60px;
+}
+
+.prev {
+    margin-left: 20px;
+}
+
+.next {
+    float: right;
+    margin-right: 20px;
+}
+
+.banner-nav {
+    position: absolute;
+    right: 610px;
+    bottom: 10px;
+    height: 30px;
+}
+
+.banner-nav-item {
+    background: white;
+    float: left;
+    width: 50px;
+    height: 5px;
+    margin: 5px;
+}
+
+.active {
+    background: orange;
+}

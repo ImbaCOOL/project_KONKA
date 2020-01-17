@@ -1,0 +1,39 @@
+.max-img {
+    position: absolute;
+    top: 50px;
+    left: 570px;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    overflow: hidden;
+    display: none;
+}
+
+.max-img img {
+    position: relative;
+    max-width: none;
+    width: 550px !important;
+    height: 550px !important;
+}
+
+.product-main-image {
+    border: none !important;
+    text-align: center;
+    line-height: 540px;
+}
+
+.product-main-image img {
+    width: 300px !important;
+    height: 300px !important;
+}
+
+.mask {
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .3);
+    display: none;
+    pointer-events: none;
+}

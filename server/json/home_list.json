@@ -1,0 +1,84 @@
+[
+    [{
+        "src": "https://www.konka.com/public/images/58/db/60/8876915eaf6d59511da035a2d87f75a748a6c02f.jpg?50545_OW800_OH800",
+        "title": "39英寸智能语音电视",
+        "desc": "1GB+4GB内存/护眼模式",
+        "price": "￥949.00"
+    }, {
+        "src": "https://www.konka.com/public/images/79/ac/e8/e9448232bb6d52475e4a3d4504e8cc834323b428.jpg?27521_OW800_OH800",
+        "title": "43英寸全面屏AI智能语音",
+        "desc": "4K HDR²/人工智能2.0",
+        "price": "￥1399.00"
+    }, {
+        "src": "https://www.konka.com/public/images/a9/d1/43/5e738d5fe734466d0b3636667d1776f68e8efafc.jpg?69493_OW800_OH800",
+        "title": "55英寸4K全面屏电视",
+        "desc": "全景AI/远程遥控",
+        "price": "￥2049.00"
+    }, {
+        "src": "https://www.konka.com/public/images/8d/6c/ef/1378b80f33b29b8e2ba372ed4a7fc980574aeda3.jpg?07799_OW800_OH800",
+        "title": "75英寸智能语音巨幕电视",
+        "desc": "4K HDR²/超薄金属机身",
+        "price": "￥4999.00"
+    }, {
+        "src": "https://www.konka.com/public/images/d4/60/4f/91d8d104e94619f6c1793b3fe991e132b0343c9d.jpg?63941_OW800_OH800",
+        "title": "KKTV 43英寸人工智能电视",
+        "desc": "1G+16G大内存/海量影视资源",
+        "price": "￥1089.00"
+    }, {
+        "src": "https://www.konka.com/public/images/b5/72/66/6fb94a4fadf166a745482b7e21a34493b48d9403.jpg?63891_OW800_OH800",
+        "title": "KKTV 50英寸4K智能电视",
+        "desc": "4K 智能HDR/人工智能语音",
+        "price": "￥1289.00"
+    }, {
+        "src": "https://www.konka.com/public/images/2f/ae/dd/525bf8a54f0af97956cb6ec11f4d943104d9490a.jpg?41853_OW800_OH800",
+        "title": "KKTV 55英寸4K智能电视",
+        "desc": "4K 智能HDR/人工智能语音",
+        "price": "￥1599.00"
+    }, {
+        "src": "https://www.konka.com/public/images/ee/ca/14/6183ca55daf23a576d2597f23323b02ad15c8ee3.jpg?78315_OW800_OH800",
+        "title": "KKTV 70英寸4K智能电视",
+        "desc": "2G+16G大内存/人工智能语音",
+        "price": "￥3399.00"
+    }],
+    [{
+        "src": "https://www.konka.com/public/images/fd/09/e5/ec49cd90db55323911e3e093490b654e18767a54.jpg?19087_OW800_OH800",
+        "title": "400升对开门冰箱",
+        "desc": "电脑控温 / 彩钢面板",
+        "price": "￥1699.00"
+    }, {
+        "src": "https://www.konka.com/public/images/ed/df/77/3d4384bcab9e4fc89141bbeb5fbf376fb29784a4.jpg?66824_OW800_OH800",
+        "title": "300升法式多门冰箱",
+        "desc": "电脑温控 / 净味保鲜",
+        "price": "￥1599.00"
+    }, {
+        "src": "https://www.konka.com/public/images/85/ca/8e/17c3648f869b12f3ef7789c1c20e9e17f1bedaf2.jpg?66826_OW800_OH800",
+        "title": "206升三门冰箱",
+        "desc": "大气土豪金 / 三门三温区",
+        "price": "￥999.00"
+    }, {
+        "src": "https://www.konka.com/public/images/e7/04/90/96b91b56a66410b24adf487956d9240f71beed8d.jpg?06472_OW800_OH800",
+        "title": "192升三门冰箱",
+        "desc": "三门三温区 / 快速制冷",
+        "price": "￥949.00"
+    }, {
+        "src": "https://www.konka.com/public/images/df/9e/63/1a849a6f4b48b4cfde806adce4071262c5f077fc.jpg?61449_OW800_OH800",
+        "title": "新飞518升风冷无霜冰箱",
+        "desc": "纤薄机身 / 电脑控温",
+        "price": "￥1889.00"
+    }, {
+        "src": "https://www.konka.com/public/images/d3/74/03/ff14b2b7290f3a84e8dd7e42ccb41ce4ee959fef.jpg?61444_OW800_OH800",
+        "title": "新飞230升风冷无霜冰箱",
+        "desc": "三门三温区 / 电脑控温",
+        "price": "￥1599.00"
+    }, {
+        "src": "https://www.konka.com/public/images/65/b0/8c/1d57ea9c49c666c7a35441de33af1bce989d736c.jpg?59666_OW800_OH800",
+        "title": "新飞221升变温冷柜",
+        "desc": "冷藏冷冻切换 / 商家两用大容量",
+        "price": "￥1099.00"
+    }, {
+        "src": "https://www.konka.com/public/images/74/b9/e8/cf09d46618b098ffc4969b686ca489f74981b6b1.jpg?51090_OW200_OH200",
+        "title": "218升单门冷柜",
+        "desc": "大容积三宽设计 / 高密度发泡层",
+        "price": "￥799.00"
+    }]
+]

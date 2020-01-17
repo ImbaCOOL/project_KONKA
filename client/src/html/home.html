@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/Cookie.js"></script>
+    <script src="../js/home.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../css/home_banner.css">
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div id="header"></div>
+
+    <!-- 二级菜单+轮播图 -->
+    <div class="index-banner">
+        <div class="banner-category">
+            <!-- 二级菜单 -->
+            <div class="container">
+                <div class="category-wrapper">
+                    <ul class="site-category-list clearfix">
+                        <li class="category-item" id="TV2">
+                            <a href="list.html?cat_id=82" title="电 视" class="title">电 视 <i>&gt;</i>
+                            </a>
+                        </li>
+
+                        <li class="category-item" id="frige2">
+                            <a href="list.html?cat_id=28" title="冰 箱" class="title">冰 箱 <i>&gt;</i>
+                            </a>
+                        </li>
+
+                        <li class="category-item" id="wash2">
+                            <a href="list.html?cat_id=29" title="洗衣机" class="title">洗衣机 <i>&gt;</i>
+                            </a>
+                        </li>
+
+                        <li class="category-item" id="live2">
+                            <a href="list.html?cat_id=13" title="生活电器" class="title">生活电器 <i>&gt;</i>
+                            </a>
+                        </li>
+
+                        <li class="category-item" id="kitchen2">
+                            <a href="list.html?cat_id=158" title="厨卫电器" class="title">厨卫电器 <i>&gt;</i>
+                            </a>
+                        </li>
+
+                        <li class="category-item" id="smart2">
+                            <a href="list.html?cat_id=53" title="智能硬件" class="title">智能硬件 <i>&gt;</i>
+                            </a>
+                        </li>
+
+                        <li class="category-item" id="home">
+                            <a href="list.html?cat_id=130" title="智能家居" class="title">智能家居 <i>&gt;</i>
+                            </a>
+                        </li>
+
+                        <li class="category-item" id="kara2">
+                            <a href="list.html?cat_id=14" title="K迷优品" class="title">K迷优品 <i>&gt;</i>
+                            </a>
+                        </li>
+
+                        <li class="category-item" id="rim">
+                            <a href="list.html?cat_id=149" title="周边配件" class="title">周边配件 <i>&gt;</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 轮播图 -->
+            <div class="banner" id="banner"></div>
+        </div>
+    </div>
+
+    <!-- 广告+明星商品列表 -->
+    <div class="home-selling">
+        <div class="container">
+            <!-- 广告 -->
+            <div class="row">
+                <div class="col-xs-3 home-six">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <a href="integralmall.html"><img
+                                    src="https://www.konka.com/public/images/60/77/bd/879b0d2d303fa098c09722333d674ab8eb474163.png?01666_OW35_OH35">
+                                <p>积分商城</p>
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a href="adjustprices.html"><img
+                                    src="https://www.konka.com/public/images/34/22/87/f1ae47f1f400e292c73f6c7915ce1564b48a58fa.png?00777_OW35_OH35">
+                                <p>限时抢购</p>
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a href="couponactivity-1.html"><img
+                                    src="https://www.konka.com/public/images/25/a8/bb/5a17fefa345f71565d007d087749eda0c6cdaac8.png?01073_OW35_OH35">
+                                <p>领券中心</p>
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a href="http://www.konka.com/news.html"><img
+                                    src="https://www.konka.com/public/images/79/19/c6/16f583ac5b90342723faba7cbec8a8c053d10497.png?02617_OW35_OH35">
+                                <p>康佳新闻</p>
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a href="purchase.html"><img
+                                    src="https://www.konka.com/public/images/12/40/10/a3466eb8964286d39dac6edc29a0ccaef20f63aa.png?02328_OW30_OH30">
+                                <p>大宗采购</p>
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a href="http://sc.hotjob.cn/wt/konka/web/index"><img
+                                    src="https://www.konka.com/public/images/67/50/e9/4059ebaa083a48f4a698394c642e4aff9c63b531.png?03436_OW35_OH35">
+                                <p>加入康佳</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <a href="https://new.konka.com/couponactivity-1.html" title="" target="_blank"><img class="layz"
+                            data-original="https://www.konka.com/public/images/9f/b8/55/a5b0a8ee70fa5865ae53ddd1983dcd8b0654a124.jpg?05409_OW280_OH180"
+                            style="display: inline;"
+                            src="https://www.konka.com/public/images/9f/b8/55/a5b0a8ee70fa5865ae53ddd1983dcd8b0654a124.jpg?05409_OW280_OH180"></a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="https://new.konka.com/65G10U+BCD-450WEGX4SP+XQG90-BB12D08W.html" title=""
+                        target="_blank"><img class="layz"
+                            data-original="https://www.konka.com/public/images/c6/09/6e/5f0cdaad2a52166e6326898e23851e81925a443c.jpg?61125_OW280_OH180"
+                            style="display: inline;"
+                            src="https://www.konka.com/public/images/c6/09/6e/5f0cdaad2a52166e6326898e23851e81925a443c.jpg?61125_OW280_OH180"></a>
+                </div>
+                <div class="col-xs-3">
+                    <a href="https://new.konka.com/item-972.html" title="" target="_blank"><img class="layz"
+                            data-original="https://www.konka.com/public/images/12/d6/0d/c24ab03d2a3d0ebac51b097858cac9015e2c7ae0.jpg?05418_OW280_OH180"
+                            style="display: inline;"
+                            src="https://www.konka.com/public/images/12/d6/0d/c24ab03d2a3d0ebac51b097858cac9015e2c7ae0.jpg?05418_OW280_OH180"></a>
+                </div>
+            </div>
+
+            <!-- 明星商品列表 -->
+            <div class="home-star" id="star">
+                <!-- 翻页 -->
+                <div class="cart-top">
+                    <h3><img
+                            src="https://www.konka.com/public/images/43/ab/a1/bf574f9eeaa0371ea1f625627f9cc03e72b2a806.png?55694_OW38_OH30">
+                        <a href="" title="明星产品" target="_blank">明星产品</a></h3>
+                    <div class="more">
+                        <div class="arrow arr-left"><span>&lt;</span></div>
+                        <div class="arrow arr-right"><span>&gt;</span></div>
+                    </div>
+                </div>
+                <!-- 商品列表 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 商品列表 -->
+    <div class="category" id="comment">
+        <div class="container">
+            <div class="television cateHeight" id="television">
+                <div class="cate-top">
+                    <h3><img
+                            src="https://www.konka.com/public/images/e4/ff/69/c83d470d54d6effc118b77b9ee913e19288cb98c.png?55699_OW38_OH30">
+                        <a href="list.html?cat_id=82" title="电视" target="_blank">电视</a></h3>
+                    <div class="more">
+                        <ul class="more-ul">
+                            <li>
+                                <a href="list.html?cat_id=141" title="全面屏" target="_blank">全面屏</a><span>/</span></li>
+                            <li>
+                                <a href="list.html?cat_id=142" title="超薄" target="_blank">超薄</a><span>/</span></li>
+                            <li>
+                                <a href="list.html?cat_id=89" title="智能" target="_blank">智能</a><span>/</span></li>
+                            <li>
+                                <a href="list.html?cat_id=112" title="商用" target="_blank">商用</a><span>/</span></li>
+                            <li>
+                                <a href="list.html?cat_id=82" title="更多>>" target="_blank"
+                                    style="color: rgb(255, 91, 87);">更多&gt;&gt;</a><span> </span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="carousel slide television-generic" data-ride="carousel">
+                    <!-- 轮播（Carousel）指标 -->
+                    <ol class="carousel-indicators" style="display: none;">
+                        <li data-target=".television-generic" data-slide-to="0" class="active"></li>
+                    </ol>
+                    <div class="container-fluid carousel-inner">
+                        <div class="item active">
+                            <a href="https://www.konka.com/55Q30+T1.html" title="" target="_blank"><img
+                                    class="layz banW"
+                                    data-original="https://www.konka.com/public/images/f3/c6/73/65cd0d78ca8ff61615b9d68e5443ffb0ae4a13ac.jpg?11739_OW1140_OH370"
+                                    src="https://www.konka.com/public/images/f3/c6/73/65cd0d78ca8ff61615b9d68e5443ffb0ae4a13ac.jpg?11739_OW1140_OH370"
+                                    style="display: block;"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 电视列表 -->
+            </div>
+
+            <div class="television cateHeight" id="Refrigerator">
+                <div class="cate-top">
+                    <h3><img
+                            src="https://www.konka.com/public/images/fb/e3/61/9bfca1816ff0681f098d2a3f50feafb2fcc6cf1a.png?55706_OW29_OH36">
+                        <a href="list.html?cat_id=28" title="冰箱" target="_blank">冰箱</a></h3>
+                    <div class="more">
+                        <ul class="more-ul">
+                            <li>
+                                <a href="list.html?cat_id=55" title="双门" target="_blank">双门</a><span>/</span></li>
+                            <li>
+                                <a href="list.html?cat_id=56" title="三门" target="_blank">三门</a><span>/</span></li>
+                            <li>
+                                <a href="llist.html?cat_id=106" title="对开门" target="_blank">对开门</a><span>/</span></li>
+                            <li>
+                                <a href="list.html?cat_id=62" title="多门" target="_blank">多门</a><span>/</span></li>
+                            <li>
+                                <a href="list.html?cat_id=70" title="冰柜" target="_blank">冰柜</a><span>/</span></li>
+                            <li>
+                                <a href="list.html?cat_id=28" title="更多>>" target="_blank"
+                                    style="color: rgb(255, 91, 87);">更多&gt;&gt;</a><span> </span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="carousel slide Refrigerator-generic" data-ride="carousel">
+                    <!-- 轮播（Carousel）指标 -->
+                    <ol class="carousel-indicators" style="display: none;">
+                        <li data-target=".Refrigerator-generic" data-slide-to="0" class="active"></li>
+                    </ol>
+                    <div class="container-fluid carousel-inner">
+                        <div class="item active">
+                            <a href="https://new.konka.com/item-961.html" title="" target="_blank"><img
+                                    class="layz banW"
+                                    data-original="https://www.konka.com/public/images/24/b6/dc/b27dac5f2693b60758df5670dff7c3bf5edcd468.jpg?11620_OW1140_OH370"
+                                    src="https://www.konka.com/public/images/24/b6/dc/b27dac5f2693b60758df5670dff7c3bf5edcd468.jpg?11620_OW1140_OH370"
+                                    style="display: block;"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 冰箱列表 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 新闻中心 -->
+    <div class="konka">
+        <div class="new">
+            <div class="container">
+                <div class="cate-top">
+                    <h3><img
+                            src="https://www.konka.com/public/images/0a/40/c4/0fe03f221c3286e4c516000850632bd6310aebe7.png?21671_OW38_OH36">
+                        <a href="n-3-alist.html" title="康佳新闻" target="_blank">康佳新闻</a></h3>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <a href="https://www.konka.com/p-492.html" title="喜讯 | 新飞荣获“国家企业技术中心”称号！">
+                            <img
+                                src="https://www.konka.com/public/images/f4/bb/33/f0c8d981be0542a239ebea8d5d22fc03aa3e2f14.jpg?35571_OW900_OH600">
+                            <h4 class="tle">喜讯 | 新飞荣获“国家企业技术中心”称号！</h4>
+                            <p class="introduce">
+                                日前，由国家发改委、科技部、财政部、海关总署、税务总局五部委联合评审的国家企业技术中心评价结果公布，新飞公司顺利获得“国家企业技术中心”荣誉称号。年终岁末，佳讯频传。这是继刚刚获得“国家知识产权示范企业”殊荣之后，又获得的国家级荣誉，充分体现了新飞坚实的科技力量和卓越的创新能力，标志着国家对新飞技术创新能力和科技竞争力的充分肯定。
+                            </p>
+                            <span class="reading">查看详情</span>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://www.konka.com/p-491.html" title="康佳集团荣膺2019年度“国家知识产权优势企业”称号">
+                            <img
+                                src="https://www.konka.com/public/images/9d/f6/95/66cbf7b166d21a9e31e72506fb334185048e1ab2.jpg?35426_OW900_OH600">
+                            <h4 class="tle">康佳集团荣膺2019年度“国家知识产权优势企业”称号</h4>
+                            <p class="introduce">
+                                近日，康佳集团被认定为2019年度“国家知识产权优势企业”。国家知识产权优势企业评选工作由国家知识产权局组织开展，是国家给予企业知识产权管理工作的至高评价。获此殊荣，彰显了国家对于集团知识产权工作建设的充分肯定。
+                            </p>
+                            <span class="reading">查看详情</span>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://www.konka.com/p-490.html" title="10亿产业基金！第二届烟台新兴产业领军人才高峰论坛成功举办">
+                            <img
+                                src="https://www.konka.com/public/images/4b/10/9b/165ac67b6526489c9d105b4c707585d44b872c55.jpg?35411_OW900_OH600">
+                            <h4 class="tle">10亿产业基金！第二届烟台新兴产业领军人才高峰论坛成功举办</h4>
+                            <p class="introduce">
+                                12月20日，由芝罘区人民政府与康佳集团股份有限公司联合举办，康佳之星承办的“第二届烟台新兴产业领军人才高峰论坛”在烟台市芝罘区成功举办，10位“千人计划”专家出席并与康佳生命科学创新中心入驻企业签订研发合作协议。同时，总规模为10亿元的芝罘科技大健康产业基金也在此次论坛中正式发布，未来，该基金将在产业的引入、培育和服务等方面，发挥重要作用。
+                            </p>
+                            <span class="reading">查看详情</span>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://www.konka.com/p-489.html" title="康佳集团荣获国家环境保护科学技术二等奖">
+                            <img
+                                src="https://www.konka.com/public/images/77/96/19/4fb23b59e05dd3644124d976d1d5ac488db9a6a5.jpg?76861_OW900_OH600">
+                            <h4 class="tle">康佳集团荣获国家环境保护科学技术二等奖</h4>
+                            <p class="introduce">
+                                12月17日，根据国家环境保护科学技术奖励办公室公告，由康佳集团环保科技事业部子公司毅康科技牵头，北京师范大学联合完成的《流域面源污染成因解析及管控关键技术》荣获2019年度国家环境保护科学技术二等奖。
+                            </p>
+                            <span class="reading">查看详情</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="new BBS">
+            <div class="container">
+                <div class="cate-top">
+                    <h3><img
+                            src="https://www.konka.com/public/images/db/c9/d2/35b1004e3c5363f36ec7596a584186ed814fcdb5.png?57588_OW38_OH43">
+                        <a href="http://bbs.konka.com" title="康佳社区" target="_blank">康佳社区</a></h3>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <a href="http://bbs.konka.com/forum.php?mod=viewthread&amp;tid=74815"
+                            title="从“微距间自有天地”到“一秒间蕴藏天地”">
+                            <img
+                                src="https://www.konka.com/public/images/1c/18/69/37ed36b2fcfe7ca0247be5d4349c245a11bf1682.jpg?50366_OW270_OH180">
+                            <h4 class="tle">从“微距间自有天地”到“一秒间蕴藏天地”</h4>
+                            <p class="introduce">重新定义电视未来，这个熟悉的康佳回来了！</p>
+                            <span class="reading">阅读全文</span>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="http://bbs.konka.com/forum.php?mod=viewthread&amp;tid=74767"
+                            title="丢掉遥控器，用手机遥控电视享受黑科技">
+                            <img
+                                src="https://www.konka.com/public/images/1a/ad/24/6666ca0cdcd054d01ba139aba6fe6b71a09f19d6.jpg?65394_OW270_OH180">
+                            <h4 class="tle">丢掉遥控器，用手机遥控电视享受黑科技</h4>
+                            <p class="introduce">随着人工智能的爆发，遥控电视的方法再不仅仅局限于遥控器按键的点击，有触摸板、语音、体感、手机遥控等。
+                                但据小编观察，最便捷的还是手机遥控这种方式，毕竟现在人越来越离不开手机了，可以随时使用手机。
+                                那么怎么用手机遥控电视呢？
+                                首先操作电视打开应用易互动电视端，界面上有电视的型号、电视的IP地址等信息。</p>
+                            <span class="reading">阅读全文</span>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="http://bbs.konka.com/forum.php?mod=viewthread&amp;tid=74643"
+                            title="教你几招，冰箱寿命up!up!up!">
+                            <img
+                                src="https://www.konka.com/public/images/68/54/ee/d3aa8c63181a92d45e84205c792d1d0cde1d578b.jpg?04784_OW270_OH180">
+                            <h4 class="tle">教你几招，冰箱寿命up!up!up!</h4>
+                            <p class="introduce">炎炎烈日,一个冰淇淋怎么能解得了暑呢？
+                                我们要更多清凉的东西来的对抗炎炎夏日。
+                                清凉的东西当然就要放冰箱咯~
+                                冰箱每天勤勤恳恳地工作，万分感动ING……</p>
+                            <span class="reading">阅读全文</span>
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="http://bbs.konka.com/forum.php?mod=viewthread&amp;tid=74665" title="易学应用之功能设置篇">
+                            <img
+                                src="https://www.konka.com/public/images/85/77/82/95fa568b55a4eb39ec48b60fa6d2e1146b686108.jpg?04779_OW270_OH180">
+                            <h4 class="tle">易学应用之功能设置篇</h4>
+                            <p class="introduce">康佳易学应用，综合提供了幼儿启蒙、义务教育、兴趣爱好、个人提升、生活百科等多种分类教育视频，为广大用户提供了一个全方面知识的教育平台。</p>
+                            <span class="reading">阅读全文</span>
+                        </a>
+                    </div>
+                    <style>
+                        .tle {
+                            display: -webkit-box !important;
+                            -webkit-line-clamp: 2 !important;
+                            -webkit-box-orient: vertical !important;
+                            line-height: 20px !important;
+                            white-space: normal !important;
+                            margin: 5px 0 !important;
+                            font-size: 14px !important;
+                            height: 40px;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 左边工具栏 -->
+    <div class="anchor" style="display: none; left: 89.5px;">
+        <div class="container-fluid">
+            <ul>
+                <li style="line-height: 17px;">
+                    <a href="#star"><span>明星产品</span></a>
+                </li>
+                <li style="line-height: 35px;">
+                    <a href="#television"><span>电视</span></a>
+                </li>
+                <li style="line-height: 35px;">
+                    <a href="#Refrigerator"><span>冰箱</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 尾部 -->
+    <div id="footer"></div>
+
+
+    <script>
+        $(() => {
+            $("#header").load("./top.html");
+            $("#footer").load("./bottom.html");
+
+            $.ajax({
+                type: "get",
+                url: "../../../server/php/home_Tab.php",
+                dataType: "json",
+                success: function (response) {
+                    (new Tab(response)).init();
+                }
+            });
+
+            $.ajax({
+                type: "get",
+                url: "../../../server/php/home_menu.php",
+                dataType: "json",
+                success: function (response) {
+                    (new Menu(response)).init();
+                }
+            });
+
+            $.ajax({
+                type: "get",
+                url: "../../../server/php/home_banner.php",
+                dataType: "json",
+                success: function (response) {
+                    (new Banner(response)).init();
+                }
+            });
+
+            (new Default()).init();
+
+            $.ajax({
+                type: "get",
+                url: "../../../server/php/home_star.php",
+                dataType: "json",
+                success: function (response) {
+                    (new Star(response)).init();
+                }
+            });
+
+            $.ajax({
+                type: "get",
+                url: "../../../server/php/home_list.php",
+                dataType: "json",
+                success: function (response) {
+                    (new List(response)).init();
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>

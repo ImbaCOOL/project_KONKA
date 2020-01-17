@@ -1,0 +1,16 @@
+.status {
+    padding: 0;
+    margin: 0;
+}
+
+.check-text {
+    color: #119955;
+}
+
+.error-text {
+    color: red;
+}
+
+.error-border {
+    border: 1px solid red;
+}

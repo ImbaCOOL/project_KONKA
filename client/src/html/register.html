@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/Cookie.js"></script>
+    <script src="../js/captcha.js"></script>
+    <script src="../js/register.js"></script>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div id="header"></div>
+
+    <!-- 注册 -->
+    <div class="main-container">
+        <div class="login-bg"
+            style="background:url(https://www.konka.com/public/images/81/e9/67/0597c5e8ce8f84a3a5ccafcbb361bd037ba45d9a.jpg?05889_OW1920_OH588);background-size:100% 100%;">
+        </div>
+        <div class="passport-signup-container">
+            <div class="login-ba sig-bg">
+                <div class="login-width">
+                    <div class="panel panel-default signup-panel">
+                        <div class="panel-heading clearfix">
+                            注册成为会员
+                            <a class="btn btn-danger btn-xs pull-right" href="./login.html">立即登录»</a>
+                        </div>
+                        <div class="panel-body">
+                            <div id="member_signup_form" class="form-horizontal">
+
+                                <!-- 账号 -->
+                                <div class="form-group">
+                                    <label for="input_login_name" class="col-md-3 control-label">登录账号<span
+                                            class="text-danger">*</span></label>
+                                    <div class="col-md-9" style="padding-left:0;">
+                                        <input type="text" required="true" autocomplete="off"
+                                            name="pam_account[login_name]" class="form-control" id="input_login_name"
+                                            placeholder="请输入登录账号(2~10位字母)">
+                                        <p class="status"></p>
+                                    </div>
+                                </div>
+
+                                <!-- 密码 -->
+                                <div class="form-group">
+                                    <label for="input_login_password" class="col-md-3 control-label">登录密码<span
+                                            class="text-danger">*</span></label>
+                                    <div class="col-md-9" style="padding-left:0;">
+                                        <input type="password" required="true" name="pam_account[login_password]"
+                                            class="form-control" id="input_login_password"
+                                            placeholder="请输入登录密码(3~10位字母和数字)">
+                                        <p class="status"></p>
+                                    </div>
+                                </div>
+
+                                <!-- 确认密码 -->
+                                <div class="form-group">
+                                    <label for="input_psw_confirm" class="col-md-3 control-label">确认密码<span
+                                            class="text-danger">*</span></label>
+                                    <div class="col-md-9" style="padding-left:0;">
+                                        <input type="password" required="true" name="pam_account[psw_confirm]"
+                                            class="form-control" id="input_psw_confirm" placeholder="请再次输入登录密码">
+                                        <p class="status"></p>
+                                    </div>
+                                </div>
+
+                                <!-- 验证码 -->
+                                <div class="form-group">
+                                    <label for="input_vcode" class="col-md-3 control-label">验证码<span
+                                            class="text-danger">*</span></label>
+                                    <div class="col-md-4" style="padding-left:0;">
+                                        <input type="text" required="true" name="vcode" class="form-control"
+                                            id="input_vcode" placeholder="验证码">
+                                        <p class="status"></p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="local-vcode">
+                                            <canvas width="120" height="40" id="captcha"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 同意条款 -->
+                                <div class="form-group">
+                                    <div class="col-md-offset-3 col-md-9" style="padding-left:0;">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" id="checkbox">同意
+                                            </label>
+                                            <a href="#">《会员注册条款》</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 提交 -->
+                                <div class="form-group">
+                                    <div class="col-md-offset-3 col-md-9" style="padding-left:0;">
+                                        <button id="submit" data-loading-text="正在提交..."
+                                            class="btn btn-warning">提交</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 尾部 -->
+    <div id="footer"></div>
+
+    <script>
+        $(() => {
+            $("#header").load("./top.html");
+            $("#footer").load("./bottom.html");
+
+            $.ajax({
+                type: "get",
+                url: "../../../server/php/home_Tab.php",
+                dataType: "json",
+                success: function (response) {
+                    (new Tab(response)).init();
+                }
+            });
+
+            fn();
+        })
+    </script>
+</body>
+
+</html>
